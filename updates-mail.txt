@@ -1,0 +1,34 @@
+To: admin@chioubzone.net
+From: chioubaca@gmail.com
+Subject: Monthly Updates
+
+### System Upgrades: ##############################################################################
+
+apt-get update && apt-get -V upgrade && apt-get -V dist-upgrade && apt-get autoremove --purge
+
+
+### OVH Kernel Update: ############################################################################
+
+uname -r && curl ftp://ftp.ovh.net/made-in-ovh/bzImage/latest-production/ | grep bzImage
+
+Si update available:
+cd /boot/
+wget bzImage ; wget System.map
+update-grub
+shutdown -r now
+
+Verifier si update ok: uname -r
+En cas de probleme, Mode Rescue --> http://guides.ovh.com/ModeRescue
+
+
+### git projects Update: ##########################################################################
+
+cd /home/tt-rss/ && git pull origin master && diff config.php config.php-dist
+
+cd /home/eg && git pull origin master
+
+
+### check letsencrypt renewal: ####################################################################
+
+cat /root/letsencrypt_renewal.log
+
