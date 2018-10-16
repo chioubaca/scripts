@@ -39,6 +39,7 @@
 ### Tips
 * [GIT Tips](https://github.com/git-tips/tips)
 * [Startup Tools and Hints](https://github.com/selahattinunlu/startup-tools-and-hints)
+* [Interviews Training & Data Structures](https://github.com/kdn251/interviews)
 
 ### Docs
 * [Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines)
