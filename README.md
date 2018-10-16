@@ -1,5 +1,7 @@
 # Table of Contents
 - [Notes](#notes)
+  * [Dev](#dev)
+    + [Java](#java)
   * [Admin Linux](#admin-linux)
     + [Shell](#shell)
     + [Certificates](#certificates)
@@ -12,6 +14,13 @@
     + [Books](#books)
 
 # Notes
+
+## Dev
+
+### Java
+* [Encrypting JPA entity attributes using Hibernate events listeners in Spring](https://blog.arnoldgalovics.com/encrypting-jpa-entity-attributes-using-listeners-in-spring/)
+* [A guide to logging in Java](https://www.marcobehler.com/guides/a-guide-to-logging-in-java)
+* [Hibernate performance tuning tips](https://vladmihalcea.com/hibernate-performance-tuning-tips/)
 
 ## Admin Linux
 
